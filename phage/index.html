@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Formulaire SGIL</title>
+  <base href="/formulaire-sgil/">  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="shortcut icon" href="#" />
+<link rel="stylesheet" href="styles.1ede61162f4e362d586f.css"></head>
+<body>
+  <div class="conteneur">
+      <header>
+          <a  href="http://www.msss.gouv.qc.ca/" target="_blank">
+            <img src="assets/img/lspq_couleur_moyen.jpg" width="224.5" height="85.75">
+          </a>     
+          <div id="menubar">
+          </div>
+        </header>
+    <div id="break" class="html2pdf__page-break"></div>
+    <div id="contenu" class="pdf section" style="display: none">
+        <page footer="page" backtop="7mm" backbottom="7mm" backright="10mm"> 
+            <page_header id="LSPQHeader"> 
+              <div class="conteneurFlex">
+                <div class="sousConteneurFlex1">
+                    <div class="sousConteneurFlex11">
+                        <a style="display: none" class="pdf" id="logoGouv" href="http://www.msss.gouv.qc.ca/" target="_blank">
+                            <img src="assets/img/lspq_couleur_moyen.jpg" width="224.5" height="85.75">
+                        </a>
+                        <h1 style="text-align: center;font-size:14px; width: 360px;" id="titre">Demande d'analyse microbiologique et
+                            sérodiagnostique
+                            pour les spécimens d'origine humaine</h1>
+                    </div>
+                    <div id="codePlaceHolder">
+                        <!-- espace pour injecter le code barre -->
+                    </div>
+                </div>
+                <div class="espaceReserve">
+                    Espace
+                    <br>
+                    réservé
+                    <br>
+                    au LSPQ
+                </div>
+            </div>
+            </page_header>
+                      
+            <page_footer>
+            </page_footer> 
+              <div id="patient"></div>
+              <div id="analyse"></div>              
+              <div id="specimen"></div>
+              <div id="client"></div>
+         </page>         
+         
+    </div>    
+      <app-root></app-root>
+    </div>
+  </div>  
+<script src="runtime.458556a34b891ea32398.js" defer></script><script src="polyfills-es5.ef9a514ca661d04011fc.js" nomodule defer></script><script src="polyfills.accf1d2a1fd1ea840949.js" defer></script><script src="main.1c8e0052b7fec212ce21.js" defer></script></body>
+<app-pied-de-page></app-pied-de-page>
+</html>
+<script>
+window.onload = function () { 
+  try
+    {
+      var cleave = new Cleave('.input-date', {
+    date: true,
+    delimiter: '-',
+    datePattern: ['Y', 'm', 'd']
+  });
+
+  var cleave1 = new Cleave('.input-codePostal', {    
+    delimiter: ' ',
+    blocks: [3,3],
+    uppercase: true
+  });
+
+  var cleave2 = new Cleave('.input-datePre', {    
+    date: true,
+    delimiter: '-',
+    datePattern: ['Y', 'm', 'd']
+  });
+
+  var cleave3 = new Cleave('.input-Nam', {    
+    uppercase: true,
+    blocks: [12]
+  });
+    }
+    catch(e)
+    {
+        console.log(e);
+    }
+}
+  </script>

@@ -1,0 +1,73 @@
+﻿Nature de prélèvement;Préciser la nature;Spécifier
+Abcès-pus;SVP spécifier;À afficher
+Arthropode;Nul;Nul
+Aspiration-Sécrétion (respiratoire inférieure);Autre;À afficher
+Aspiration-Sécrétion (respiratoire inférieure);Bronchique-endotrachéal-trachéal;Nul
+Aspiration-Sécrétion (respiratoire inférieure);Nasopharyngé(e);Nul
+Autre;SVP spécifier;À afficher
+Biopsie-tissu;Autre;À afficher
+Biopsie-tissu;Cardiaque;Nul
+Biopsie-tissu;Cerveau;Nul
+Biopsie-tissu;Ganglion;Nul
+Biopsie-tissu;Gastrique;Nul
+Biopsie-tissu;Hépatique;Nul
+Biopsie-tissu;Intestin;Nul
+Biopsie-tissu;Moelle osseuse;Nul
+Biopsie-tissu;Nodule;Nul
+Biopsie-tissu;Osseux;Nul
+Biopsie-tissu;Peau;Nul
+Biopsie-tissu;Placenta;Nul
+Cathéter;Autre;À afficher
+Cathéter;Intraveineux;Nul
+Cathéter;Urinaire;Nul
+Écouvillon;Autre;À afficher
+Écouvillon;Buccal;Nul
+Écouvillon;Col utérin;Nul
+Écouvillon;Gorge;Nul
+Écouvillon;Nasal(es);Nul
+Écouvillon;Nasopharyngé(e);Nul
+Écouvillon;Naso-rectal;Nul
+Écouvillon;Nez;Nul
+Écouvillon;Oeil;Nul
+Écouvillon;Rectal;Nul
+Écouvillon;Urètre;Nul
+Écouvillon;Vaginale(s);Nul
+Expectoration (respiratoire supérieure);Nul;Nul
+LCR;Nul;Nul
+Liquide;Abdomen;Nul
+Liquide;Amniotique;Nul
+Liquide;Articulaire-Synovial;Nul
+Liquide;Ascite;Nul
+Liquide;Autre;À afficher
+Liquide;Bile;Nul
+Liquide;Bronchique-endotrachéal-trachéal;Nul
+Liquide;Gastrique;Nul
+Liquide;Kyste;Nul
+Liquide;Oeil;Nul
+Liquide;Péricardique;Nul
+Liquide;Péritonéal;Nul
+Liquide;Pleural;Nul
+Ongle;Nul;Nul
+Plasma;Nul;Nul
+Salive;Nul;Nul
+Sang;Autre;À afficher
+Sang;Cordon;Nul
+Sang;Hémoculture;À afficher
+Sang;Non applicable;Nul
+Sang;Sang EDTA;Nul
+Sang;Sang total;Nul
+Sécrétions;Vaginale(s);Nul
+Sécrétions;Urétral(es);Nul
+Selles;Autre;À afficher
+Selles;Culot de concentration;Nul
+Selles;Culot de concentration, culot de lavage;Nul
+Selles;Culot de lavage;Nul
+Selles;Fixées;Nul
+Selles;Fixées et fraîches congelées;Nul
+Selles;Non applicable;Nul
+Sérum;Nul;
+Sérum cadavérique;Nul;
+Sperme;Nul;Nul
+Squame;SVP spécifier;À afficher
+Urine;Nul;Nul
+Vers;Nul;Nul
